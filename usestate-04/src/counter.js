@@ -10,7 +10,7 @@ import { useState } from "react"
  * useState always return an array of two elements
  * 1. First element represents state of the component (data).
  * 2. Second element is a function which is used to mutate/change the state.
- * 
+ * y
  * const [state, setState] = useState(intialState);
  * 
  * setState(newState) => this function compares the currentState with the newState and if there's any change then React will schedule a re render of that component.
